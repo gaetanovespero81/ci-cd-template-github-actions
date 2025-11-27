@@ -1,0 +1,32 @@
+[MASTER]
+ignore=venv
+jobs=1
+
+# Recommended plugins
+load-plugins=pylint.extensions.docparams
+
+# [MESSAGES CONTROL]
+# # Disable annoying or unnecessary warnings for CI/CD
+# disable=
+#     C0114, # missing-module-docstring
+#     C0115, # missing-class-docstring
+#     C0116, # missing-function-docstring
+#     R0903, # too-few-public-methods
+#     R0801, # duplicate code (too aggressive)
+#     W0511, # TODO comments
+#     W0613, # unused argument
+#     W0703, # broad-except
+
+[FORMAT]
+max-line-length=120
+indent-string='    '
+
+[DESIGN]
+max-args=6
+max-locals=30
+max-branches=12
+max-statements=80
+
+[REPORTS]
+output-format=colorized
+score=no

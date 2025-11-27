@@ -1,0 +1,14 @@
+*
+!.gitignore
+!.github/
+!.github/workflows/
+!.github/workflows/*
+!.pylintrc
+!src/
+!src/app.py
+!mypy.ini
+!pytest.ini
+!README.md
+!requirements.txt
+!tests/
+!tests/test_app.py
